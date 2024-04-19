@@ -1,0 +1,85 @@
+#root {
+  max-width: 1280px;
+  padding:0;
+  font-family: "Sofia", sans-serif;
+}
+
+.background{
+  width: 300px;
+  height: 800px;
+  border-radius: 10px;
+  background-color: black;
+  background-position: center center;
+  margin: 0 auto;
+
+}
+.profile{
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+}
+.full-name{
+  color: white;
+  font-size:25px;
+  line-height: 0.4em;
+  text-align: center;
+}
+.role_web{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.role{
+  color: orange;
+  font-size: 20px;
+}
+.Website-class a{
+  color:white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.btn{
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+}
+.my-email, .my-linkdin{
+  text-decoration: none;
+  padding: .5em 2em;
+
+  border-radius: 5px;
+}
+.my-email{
+  background:white;
+  color:black;
+}
+.my-linkdin{
+  background: #0799ca;
+  color:white;
+}
+
+.about-me{
+  display: flex;
+  flex-direction: column;
+  padding: 1em 2em;
+}
+.about-me strong , p{
+  color:white;
+  font-size: 15px;
+}
+.about-me strong{
+  line-height: .5em;
+}
+.footer{
+  background: #1b1b1b;
+  padding: .2em 3em;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer a{
+  text-decoration: none;
+  color:grey;
+  padding: .5em;
+   font-size: 20px;
+}
