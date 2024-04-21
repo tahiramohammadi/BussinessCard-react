@@ -1,85 +1,66 @@
 #root {
   max-width: 1280px;
-  padding:0;
-  font-family: "Sofia", sans-serif;
 }
 
-.background{
-  width: 300px;
-  height: 800px;
-  border-radius: 10px;
-  background-color: black;
-  background-position: center center;
-  margin: 0 auto;
-
-}
-.profile{
-  border-radius: 10px;
-  width: 300px;
-  height: 200px;
-}
-.full-name{
-  color: white;
-  font-size:25px;
-  line-height: 0.4em;
-  text-align: center;
-}
-.role_web{
+.Header{
+  background: orangered;
+  color:white;
   display: flex;
+  justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
-.role{
-  color: orange;
-  font-size: 20px;
+.globe-icon{
+  padding: 0em .5em;
+  width: 40px;
+  height: 40px;
 }
-.Website-class a{
-  color:white;
-  font-size: 20px;
-  text-decoration: none;
-}
-.btn{
+.journal{
   display: flex;
-  justify-content: space-around;
-  padding: 1em;
-}
-.my-email, .my-linkdin{
-  text-decoration: none;
-  padding: .5em 2em;
 
-  border-radius: 5px;
 }
-.my-email{
-  background:white;
-  color:black;
-}
-.my-linkdin{
-  background: #0799ca;
-  color:white;
-}
-
-.about-me{
-  display: flex;
-  flex-direction: column;
-  padding: 1em 2em;
-}
-.about-me strong , p{
-  color:white;
-  font-size: 15px;
-}
-.about-me strong{
-  line-height: .5em;
-}
-.footer{
-  background: #1b1b1b;
-  padding: .2em 3em;
+.journal--image{
+  width: 150px;
+  height: 200px;
   border-radius: 10px;
-  display: flex;
-  justify-content: space-around;
 }
-.footer a{
-  text-decoration: none;
-  color:grey;
-  padding: .5em;
-   font-size: 20px;
+.Main--content{
+  display: flex;
+  background: #ffff;
+  margin: 2em;
+}
+.full-content{
+  display: flex;
+  flex-direction: column;
+}
+.lo-map{
+  display: flex;
+  padding: .5em 1em ;
+}
+.dot--location{
+  color:orangered;
+}
+.location{
+text-transform: uppercase;
+padding: 0em 0.2em;
+}
+.google--map{
+padding: 0em 4em 0em .2em;
+color:gray;
+}
+.title--description{
+  display: flex;
+  padding: 0em 1em;
+  flex-direction: column;
+}
+.title-country{
+  line-height: .2em;
+  font-size:30px;
+}
+.startd--endd{
+  display: flex;
+ padding-top:1em;
+ line-height: .2em;
+}
+.description--p{
+  padding: 0em 3em 0em 0em;
 }
