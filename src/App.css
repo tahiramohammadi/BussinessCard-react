@@ -1,66 +1,85 @@
 #root {
   max-width: 1280px;
+  padding:0;
+  font-family: "Sofia", sans-serif;
 }
 
-.Header{
-  background: orangered;
-  color:white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.globe-icon{
-  padding: 0em .5em;
-  width: 40px;
-  height: 40px;
-}
-.journal{
-  display: flex;
-
-}
-.journal--image{
-  width: 150px;
-  height: 200px;
+.background{
+  width: 300px;
+  height: 800px;
   border-radius: 10px;
+  background-color: black;
+  background-position: center center;
+  margin: 0 auto;
+
 }
-.Main--content{
-  display: flex;
-  background: #ffff;
-  margin: 2em;
+.profile{
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
 }
-.full-content{
+.full-name{
+  color: white;
+  font-size:25px;
+  line-height: 0.4em;
+  text-align: center;
+}
+.role_web{
   display: flex;
+  align-items: center;
   flex-direction: column;
 }
-.lo-map{
+.role{
+  color: orange;
+  font-size: 20px;
+}
+.Website-class a{
+  color:white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.btn{
   display: flex;
-  padding: .5em 1em ;
+  justify-content: space-around;
+  padding: 1em;
 }
-.dot--location{
-  color:orangered;
+.my-email, .my-linkdin{
+  text-decoration: none;
+  padding: .5em 2em;
+
+  border-radius: 5px;
 }
-.location{
-text-transform: uppercase;
-padding: 0em 0.2em;
+.my-email{
+  background:white;
+  color:black;
 }
-.google--map{
-padding: 0em 4em 0em .2em;
-color:gray;
+.my-linkdin{
+  background: #0799ca;
+  color:white;
 }
-.title--description{
+
+.about-me{
   display: flex;
-  padding: 0em 1em;
   flex-direction: column;
+  padding: 1em 2em;
 }
-.title-country{
-  line-height: .2em;
-  font-size:30px;
+.about-me strong , p{
+  color:white;
+  font-size: 15px;
 }
-.startd--endd{
+.about-me strong{
+  line-height: .5em;
+}
+.footer{
+  background: #1b1b1b;
+  padding: .2em 3em;
+  border-radius: 10px;
   display: flex;
- padding-top:1em;
- line-height: .2em;
+  justify-content: space-around;
 }
-.description--p{
-  padding: 0em 3em 0em 0em;
+.footer a{
+  text-decoration: none;
+  color:grey;
+  padding: .5em;
+   font-size: 20px;
 }
